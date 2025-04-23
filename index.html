@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<title>LP Avanti</title>
+	</head>
+	<body>
+		<header class="font-nu-sans">
+			<div class="header__highlight flex center">
+				<p>
+					Ganhe <span>R$10,00</span> de desconto no seu primeiro pedido. Utilize
+					o cupom <span>desconto10</span>
+				</p>
+			</div>
+			<div class="header__main flex-column">
+				<div class="header__main-content flex">
+					<img src="assets/svg/logo-avanti.svg" alt="Logo da Avanti" />
+					<div class="header__search-bar flex center">
+						<input
+							placeholder="Digite aqui o que você procura"
+							id="search-input"
+							autocomplete="off"
+						/>
+						<button onclick="searchButtonEvent()">
+							<img src="assets/svg/search.svg" alt="Ícone de lupa" />
+						</button>
+					</div>
+					<div class="header__client flex">
+						<div class="header__user flex center">
+							<div class="flex center">
+								<img src="assets/svg/user.svg" alt="Ícone de usuário" />
+							</div>
+							<div>
+								<span>Olá,</span>
+								<span>Nome cliente!</span>
+							</div>
+						</div>
+						<div class="header__cart flex center">
+							<div class="flex center">
+								<img
+									src="assets/svg/minicart.svg"
+									alt="Ícone de carrinho de compras"
+								/>
+								<span class="flex center">2</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__options-wrapper">
+					<div class="header__options flex">
+						<ul class="flex">
+							<li class="li-base">
+								<img
+									src="assets/svg/hamburguer-mini.svg"
+									alt="Ícone de menu hambúrguer"
+								/>
+								<span>Todas as Categorias</span>
+							</li>
+							<li class="li-base">Departamento</li>
+							<li class="li-base">Departamento</li>
+							<li class="li-base">Departamento</li>
+							<li class="li-base">Departamento</li>
+							<li class="li-base">Departamento</li>
+							<li class="li-base">Departamento</li>
+							<li class="li-base">Departamento</li>
+							<li class="li-base">Departamento</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="banner">
+				<img
+					src="assets/img/sale-banner-big.png"
+					alt="Imagem de roupas dobradas sobre uma cadeira. 
+					Ao lado, texto promocional 'SUPERSALE' com a mensagem 'ITENS SELECIONADOS COM ATÉ 50%OFF'"
+				/>
+			</section>
+			<section
+				class="releases first-carousel container font-nu-sans flex-column"
+			>
+				<div class="releases__title flex">
+					<span class="text-subtitle">Lançamentos</span>
+					<a class="text-small">Ver mais</a>
+				</div>
+				<div class="custom-navigation">
+					<button class="custom-button custom-prev-button"></button>
+					<button class="custom-button custom-next-button"></button>
+				</div>
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<section class="article container font-nu-base">
+				<div class="article__wrapper flex">
+					<img
+						src="assets/img/mug-ver1.png"
+						alt="Imagem de uma caneca preta com a logo da AVANTI"
+					/>
+					<div class="article__text flex-column center">
+						<h1 class="text-title">Lorem Ipsum</h1>
+						<p class="text-paragraph">
+							Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+							finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+							efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+							lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+							fringilla porttitor tortor eget lacinia. Donec sollicitudin
+							euismod orci, auctor fringilla magna consequat interdum. Fusce
+							sagittis elit a libero commodo egestas efficitur id augue.
+						</p>
+						<p class="text-paragraph">
+							Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+							finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+							efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+							lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+							fringilla porttitor tortor eget lacinia. Donec sollicitudin
+							euismod orci, auctor fringilla magna consequat interdum. Fusce
+							sagittis elit a libero commodo egestas efficitur id augue.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="section-alt">
+				<div class="article-alt container font-nu-base">
+					<div class="article__wrapper flex">
+						<div class="article-alt__text flex-column center">
+							<h1 class="text-title">Lorem Ipsum</h1>
+							<div class="article-alt__topic flex center">
+								<div class="flex center">
+									<img
+										src="assets/svg/map-pin.svg"
+										alt="Ícone de pin de mapa"
+									/>
+								</div>
+								<p class="text-paragraph">
+									Aenean massa. Cum sociis natoque penatibus et magnis dis
+									parturient montes, nascetur ridiculus mus. Donec quam felis,
+									ultricies nec, pellentesque eu, pretium quis, sem.
+								</p>
+							</div>
+							<div class="article-alt__topic flex center">
+								<div class="flex center">
+									<img
+										src="assets/svg/map-pin.svg"
+										alt="Ícone de pin de mapa"
+									/>
+								</div>
+								<p class="text-paragraph">
+									Aenean massa. Cum sociis natoque penatibus et magnis dis
+									parturient montes, nascetur ridiculus mus. Donec quam felis,
+									ultricies nec, pellentesque eu, pretium quis, sem.
+								</p>
+							</div>
+							<div class="article-alt__topic flex center">
+								<div class="flex center">
+									<img
+										src="assets/svg/map-pin.svg"
+										alt="Ícone de pin de mapa"
+									/>
+								</div>
+								<p class="text-paragraph">
+									Aenean massa. Cum sociis natoque penatibus et magnis dis
+									parturient montes, nascetur ridiculus mus. Donec quam felis,
+									ultricies nec, pellentesque eu, pretium quis, sem.
+								</p>
+							</div>
+						</div>
+						<img
+							src="assets/img/mug-ver2.png"
+							alt="Imagem de uma caneca preta, posta em uma tábua de madeira, com a logo da AVANTI"
+						/>
+					</div>
+				</div>
+			</section>
+			<section class="article container font-nu-base">
+				<div class="article__wrapper flex">
+					<img
+						src="assets/img/mug-ver1.png"
+						alt="Imagem de uma caneca preta com a logo da AVANTI"
+					/>
+					<div class="article__text flex-column center">
+						<h1 class="text-title">Lorem Ipsum</h1>
+						<p class="text-paragraph">
+							Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+							finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+							efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+							lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+							fringilla porttitor tortor eget lacinia. Donec sollicitudin
+							euismod orci, auctor fringilla magna consequat interdum. Fusce
+							sagittis elit a libero commodo egestas efficitur id augue.
+						</p>
+						<p class="text-paragraph">
+							Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+							finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+							efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+							lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+							fringilla porttitor tortor eget lacinia. Donec sollicitudin
+							euismod orci, auctor fringilla magna consequat interdum. Fusce
+							sagittis elit a libero commodo egestas efficitur id augue.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section
+				class="releases last-carousel container font-nu-sans flex-column"
+			>
+				<div class="releases__title flex">
+					<span>Lançamentos</span>
+					<a>Ver mais</a>
+				</div>
+				<div class="custom-navigation">
+					<button class="custom-button custom-prev-button"></button>
+					<button class="custom-button custom-next-button"></button>
+				</div>
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide__content flex-column">
+								<span class="slide__tag">Novo</span>
+								<img
+									src="assets/img/product.png"
+									alt="Homem vestindo camiseta branca a ser vendida"
+								/>
+								<div class="slide__text">
+									<h3>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit
+									</h3>
+									<div class="slide__financy flex-column">
+										<div class="flex">
+											<div class="slide__prices flex-column">
+												<span>R$ 100,00</span>
+												<span>R$ 79,90</span>
+											</div>
+											<div class="flex center">
+												<a class="slide__discount">10% off</a>
+											</div>
+										</div>
+										<p>Ou em até <span>10x de R$ 7,90</span></p>
+									</div>
+								</div>
+								<button class="button-base">Comprar</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<section class="banner">
+				<img
+					src="assets/img/contact-banner-big.png"
+					alt="Imagem de sala temática da AVANTI"
+				/>
+			</section>
+			<section class="newsletter container">
+				<div class="newsletter__wrapper flex-column font-nu-sans">
+					<p>Cadastre-se na nossa <span>newsletter</span></p>
+					<div class="newsletter__forms flex center">
+						<input
+							class="font-nu-sans"
+							placeholder="Digite seu nome"
+							autocomplete="off"
+						/>
+						<input
+							class="font-nu-sans"
+							placeholder="Digite seu e-mail"
+							autocomplete="off"
+						/>
+						<div class="newsletter__terms flex">
+							<input type="checkbox" />
+							<p>Eu estou de acordo com a <a>Política de Privacidade</a></p>
+						</div>
+						<button class="button-base">Cadastrar</button>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="font-nu-sans">
+			<div class="footer__main">
+				<div class="footer__main-content flex-column">
+					<div class="footer__main-content-upper flex">
+						<div class="footer__contacts flex-column">
+							<div>
+								<img src="assets/svg/logo-avanti.svg" alt="Logo da AVANTI" />
+							</div>
+							<div class="flex">
+								<img
+									src="assets/svg/logo-instagram.svg"
+									alt="Logo do Instagram"
+								/>
+								<img
+									src="assets/svg/logo-facebook.svg"
+									alt="Logo do Facebook"
+								/>
+								<img src="assets/svg/logo-youtube.svg" alt="Logo do Youtube" />
+								<img src="assets/svg/logo-tiktok.svg" alt="Logo do Tiktok" />
+							</div>
+						</div>
+						<div class="footer__topics flex">
+							<div class="flex-column">
+								<h4>Institucional</h4>
+								<div>
+									<h5>Sobre Nós</h5>
+									<h5>Nossas Lojas</h5>
+									<h5>Privacidade e Segurança</h5>
+									<h5>Termos e Condições</h5>
+								</div>
+							</div>
+							<div class="flex-column">
+								<h4>Central de Ajuda</h4>
+								<div>
+									<h5>Fale Conosco</h5>
+									<h5>Frete e Entrega</h5>
+									<h5>Trocas e Devoluções</h5>
+									<h5>Formas de Pagamento</h5>
+									<h5>FAQ</h5>
+								</div>
+							</div>
+							<div class="flex-column">
+								<h4>Atendimento</h4>
+								<div>
+									<h5><span>Telefone:</span> (00) 1234-5678</h5>
+									<h5><span>E-mail:</span> exemplo@exemplo.com.br</h5>
+									<h5>
+										<span>Horário de atendimento:</span>
+										<p>Segunda a Sábado: 07h00 às 23h00</p>
+										<p>Domingo e Feriados: 07h00 às 21h00</p>
+									</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__payments flex center">
+						<img src="assets/svg/logo-amex.svg" alt="Logo da AMEX" />
+						<img
+							src="assets/svg/logo-mastercard.svg"
+							alt="Logo do Mastercard"
+						/>
+						<img src="assets/svg/logo-visa.svg" alt="Logo da Visa" />
+						<img src="assets/svg/logo-hipercard.svg" alt="Logo do Hipercard" />
+						<img src="assets/svg/logo-elo.svg" alt="Logo da Elo" />
+						<img
+							src="assets/svg/logo-diners-club.svg"
+							alt="Logo do Diners Club"
+						/>
+						<img src="assets/svg/logo-paypal.svg" alt="Logo do Paypal" />
+						<img src="assets/svg/logo-pix.svg" alt="Logo do PIX" />
+						<img
+							src="assets/svg/logo-boleto.svg"
+							alt="Logo do Boleto Bancário"
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="footer__lower-content flex-column center">
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+					nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+					volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+					ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+					molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+					vero eros et accumsan et iusto odio dignissim qui blandit praesent
+					luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+				</p>
+				<div class="footer__sponsors flex center">
+					<img
+						src="assets/svg/logo-lets-encrypt.svg"
+						alt="Logo da Let's Encrypt"
+					/>
+					<img src="assets/svg/logo-vtex-pci.svg" alt="Logo da VTEX PCI" />
+					<img
+						src="assets/svg/linha-vertical.svg"
+						alt="Linha vertical separatória"
+					/>
+					<img src="assets/svg/logo-avanti-mini.svg" alt="Logo da AVANTI" />
+					<img src="assets/svg/logo-vtex.svg" alt="Logo da VTEX" />
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="/js/script.js"></script>
+	</body>
+</html>
